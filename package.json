@@ -1,0 +1,16 @@
+{
+  "name": "watch-stock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "google-finance": "^0.1.10",
+    "node-notifier": "^5.1.2",
+    "yahoo-finance": "^0.3.5"
+  },
+  "bin": {
+    "watch-stock": "./watch-stock.js"
+  },
+  "main" : "./watch-stock.js",
+  "preferGlobal": "true"
+}
